@@ -1,8 +1,7 @@
-function TabButton () {
-    return (
+export default function TabButton({ btnname }) {
+  return (
     <li>
-      <button>Click Me</button>
+      <button>{btnname}</button>
     </li>
-    );
-  }
-export default TabButton;
+  );
+}
